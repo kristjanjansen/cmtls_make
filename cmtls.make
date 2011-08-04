@@ -1,4 +1,4 @@
-core = 6.x
+core = 7.x
 api = 2
 
 projects[drupal][type] = core
@@ -36,26 +36,26 @@ projects[] = strongarm
 projects[] = token
 projects[] = views
 
-projects[cmtls][type] = "module"
-projects[cmtls][download][type] = "git"
-projects[cmtls][download][url] = "https://github.com/kristjanjansen/cmtls.git"
+; projects[cmtls][type] = "module"
+; projects[cmtls][download][type] = "git"
+; projects[cmtls][download][url] = "https://github.com/kristjanjansen/cmtls.git"
 
-projects[cmtls_theme][type] = "theme"
-projects[cmtls_theme][download][type] = "git"
-projects[cmtls_theme][download][url] = "https://github.com/kristjanjansen/cmtls_theme.git"
+; projects[cmtls_theme][type] = "theme"
+; projects[cmtls_theme][download][type] = "git"
+; projects[cmtls_theme][download][url] = "https://github.com/kristjanjansen/cmtls_theme.git"
 
-projects[cmtls_profile][type] = "profile"
-projects[cmtls_profile][download][type] = "git"
-projects[cmtls_profile][download][url] = "https://github.com/kristjanjansen/cmtls_profile.git"
-projects[cmtls_profile][directory_name] = "cmtls"
+; projects[cmtls_profile][type] = "profile"
+; projects[cmtls_profile][download][type] = "git"
+; projects[cmtls_profile][download][url] = "https://github.com/kristjanjansen/cmtls_profile.git"
+; projects[cmtls_profile][directory_name] = "cmtls"
 
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.tar.gz"
 
-libraries[jquery_ui][download][type] = "get"
-libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.8.7.zip"
-libraries[jquery_ui][destination] = "modules/jquery_ui"
-libraries[jquery_ui][directory_name] = "jquery.ui"
+; libraries[jquery_ui][download][type] = "get"
+; libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.8.7.zip"
+; libraries[jquery_ui][destination] = "modules/jquery_ui"
+; libraries[jquery_ui][directory_name] = "jquery.ui"
 
 libraries[openlayers][download][type] = "get"
 libraries[openlayers][download][url] = "http://openlayers.org/api/2.10/OpenLayers.js"
