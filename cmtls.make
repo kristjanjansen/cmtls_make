@@ -11,7 +11,6 @@ projects[] = cck
 projects[] = ckeditor
 projects[] = ctools
 projects[] = date
-projects[] = fbconnect
 projects[] = features
 projects[] = feeds
 projects[] = filefield
