@@ -4,7 +4,7 @@ api = 2
 projects[drupal][type] = core
 projects[drupal][patch][] = "http://miscutils.googlecode.com/svn/trunk/patches/htaccess_zone.patch"
 
-projects[jquery_update] = 2.0-alpha1
+projects[] = jquery_update
 projects[] = activity
 projects[] = better_formats
 projects[] = captcha
@@ -36,9 +36,6 @@ projects[] = sections
 projects[] = strongarm
 projects[] = token
 projects[] = views
-
-; projects[modalframe][patch][] = http://miscutils.googlecode.com/svn/trunk/patches/modalframe.patch
-; projects[onepageprofile][patch][] = http://miscutils.googlecode.com/svn/trunk/patches/onepageprofile.patch
 
 projects[cmtls][type] = "module"
 projects[cmtls][download][type] = "git"
