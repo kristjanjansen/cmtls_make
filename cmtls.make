@@ -38,6 +38,8 @@ projects[views] = 3.0-rc1
 ; projects[] = jquery_ui
 ; projects[] = jquery_ui_dialog
 
+; Not yet upgraded modules
+
 ; projects[cmtls][type] = "module"
 ; projects[cmtls][download][type] = "git"
 ; projects[cmtls][download][url] = "https://github.com/kristjanjansen/cmtls.git"
@@ -54,10 +56,10 @@ projects[views] = 3.0-rc1
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.tar.gz"
 
-; libraries[jquery_ui][download][type] = "get"
-; libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.8.7.zip"
-; libraries[jquery_ui][destination] = "modules/jquery_ui"
-; libraries[jquery_ui][directory_name] = "jquery.ui"
-
 libraries[openlayers][download][type] = "get"
-libraries[openlayers][download][url] = "http://openlayers.org/api/2.10/OpenLayers.js"
+; libraries[openlayers][download][url] = "http://openlayers.org/api/2.10/OpenLayers.js"
+libraries[openlayers][download][url] = "http://openlayers.org/download/OpenLayers-2.9.zip"
+
+libraries[simplepie][download][type] = "get"
+libraries[simplepie][download][url] = "http://svn.simplepie.org/simplepie/trunk/simplepie.inc"
+libraries[simplepie][destination] = "modules/feeds/libraries"
