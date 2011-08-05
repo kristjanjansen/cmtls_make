@@ -2,39 +2,41 @@ core = 7.x
 api = 2
 
 projects[drupal][type] = core
-; projects[drupal][patch][] = "http://miscutils.googlecode.com/svn/trunk/patches/htaccess_zone.patch"
 
 projects[] = activity
-; projects[] = better_formats
-; projects[] = captcha
+projects[better_formats] = 1.x-dev
+projects[captcha] = 1.0-alpha3
 projects[] = cck
 projects[] = ckeditor
 projects[] = ctools
 projects[] = date
 projects[] = features
-; projects[] = feeds
-;; projects[] = filefield
+projects[feeds] = 2.0-alpha4
 projects[] = google_analytics
-;; projects[] = imageapi
-;; projects[] = imagecache
-;; projects[] = imagefield
 projects[] = imce
 ; projects[] = install_profile_api
 ; projects[] = jlightbox
-; projects[] = jobs_scheduler
-;; projects[] = jquery_ui
-;; projects[] = jquery_ui_dialog
+projects[jobs_scheduler] = 2.0-alpha2
 projects[] = jquery_update
 projects[] = modalframe
-; projects[] = nodehierarchy
+projects[nodehierarchy] = 2.0-dev
 projects[] = og
-; projects[] = onepageprofile
+; projects[] = onepageprofile 
 projects[] = openlayers
-; projects[] = openlayers_geocoder
-; projects[] = sections
+; projects[] = openlayers_geocoder ; http://drupal.org/node/913350
+; projects[] = sections ; http://drupal.org/node/996454
 projects[] = strongarm
 projects[] = token
-; projects[] = views
+projects[views] = 3.0-rc1
+
+; Obsolete modules
+
+; projects[] = filefield
+; projects[] = imageapi
+; projects[] = imagecache
+; projects[] = imagefield
+; projects[] = jquery_ui
+; projects[] = jquery_ui_dialog
 
 ; projects[cmtls][type] = "module"
 ; projects[cmtls][download][type] = "git"
