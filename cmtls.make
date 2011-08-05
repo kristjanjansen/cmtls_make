@@ -80,4 +80,4 @@ libraries[openlayers][download][url] = "http://openlayers.org/download/OpenLayer
 
 libraries[simplepie][download][type] = "get"
 libraries[simplepie][download][url] = "http://svn.simplepie.org/simplepie/trunk/simplepie.inc"
-libraries[simplepie][destination] = "modules/feed/libraries"
+libraries[simplepie][destination] = "modules/feeds/libraries"
