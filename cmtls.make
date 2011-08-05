@@ -2,7 +2,6 @@ core = 6.x
 api = 2
 
 projects[drupal][type] = core
-projects[drupal][patch][] = "http://miscutils.googlecode.com/svn/trunk/patches/htaccess_zone.patch"
 
 projects[] = activity
 projects[] = better_formats
@@ -49,13 +48,17 @@ projects[cmtls_profile][download][type] = "git"
 projects[cmtls_profile][download][url] = "https://github.com/kristjanjansen/cmtls_profile.git"
 projects[cmtls_profile][directory_name] = "cmtls"
 
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.tar.gz"
-
-libraries[jquery_ui][download][type] = "get"
+libraries[jquery_ui][download][type] = "file"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.8.7.zip"
 libraries[jquery_ui][destination] = "modules/jquery_ui"
 libraries[jquery_ui][directory_name] = "jquery.ui"
 
-libraries[openlayers][download][type] = "get"
-libraries[openlayers][download][url] = "http://openlayers.org/api/2.10/OpenLayers.js"
+libraries[ckeditor][download][type] = "file"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.tar.gz"
+
+libraries[openlayers][download][type] = "file"
+libraries[openlayers][download][url] = "http://openlayers.org/download/OpenLayers-2.9.zip"
+
+libraries[simplepie][download][type] = "file"
+libraries[simplepie][download][url] = "http://svn.simplepie.org/simplepie/trunk/simplepie.inc"
+libraries[simplepie][destination] = "modules/feeds/libraries"
