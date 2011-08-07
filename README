@@ -2,20 +2,18 @@ Community Tools Drush makefiles
 
 Usage:
 
-For 6.x development branch:
+For 6.x development:
 
 drush make https://github.com/kristjanjansen/cmtls_make/blob/6.x/cmtls.make sitename
 
-For 6.x 0.5 release:
+For 6.x release 0.5:
 
-~~~
 drush make https://github.com/kristjanjansen/cmtls_make/blob/6.x-0.5/cmtls.make sitename
-~~~
 
-For 7.x development branch:
+For 7.x development:
 
 drush make https://github.com/kristjanjansen/cmtls_make/blob/7.x/cmtls.make sitename
 
-For 7.x experiments:
+For 7.x development experiments:
 
 drush make https://github.com/kristjanjansen/cmtls_make/blob/7.x-experiments/cmtls.make sitename
