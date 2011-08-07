@@ -1,5 +1,10 @@
 Community Tools Drush makefiles
 
+Requirements:
+
+Drush
+Latest Drush Make (dev version)
+
 Usage:
 
 For 6.x development:
