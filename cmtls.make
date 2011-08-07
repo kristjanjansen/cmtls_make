@@ -9,5 +9,9 @@ projects[editablefields][download][branch] = "7.x-1.x"
 projects[draggableviews][download][type] = "git"
 projects[draggableviews][download][branch] = "7.x-1.x"
 
-projects[views][download][type] = "git"
-projects[views][download][branch] = "7.x-3.x"
+projects[views][version] = "3.x-dev"
+
+projects[context_og][type] = "module"
+projects[context_og][download][type] = "git"
+projects[context_og][patch][] = "http://drupal.org/files/issues/d7_port-1019386-12.patch"
+
